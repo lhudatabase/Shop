@@ -7,7 +7,7 @@ namespace Models.Framework
 
     public partial class ShopDbContext : DbContext
     {
-        public ShopDbContext()
+        public ShopDbContext() 
             : base("name=ShopDbContext")
         {
         }
